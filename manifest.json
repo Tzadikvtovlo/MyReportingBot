@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "בוט דיווח חברת חשמל",
+  "version": "0.5",
+  "description": "מערכת אוטומציה חכמה לדיווח מונה",
+  "permissions": [
+    "storage", 
+    "tabs", 
+    "scripting", 
+    "sidePanel", 
+    "notifications", 
+    "alarms",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://*.iec.co.il/*", 
+    "https://script.google.com/*", 
+    "https://script.googleusercontent.com/*",
+    "https://api.github.com/*"
+  ],
+  "icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "action": {
+    "default_popup": "app.html"
+  },
+  "side_panel": {
+    "default_path": "app.html"
+  },
+  "options_page": "app.html",
+  "background": {
+    "service_worker": "background.js"
+  }
+}
