@@ -1,4 +1,4 @@
-PushBox - רישיון שימוש אישי בלבד
+MyReportingBot - רישיון שימוש אישי בלבד
 
 כל הזכויות שמורות לצדיק וטוב לו.
 
@@ -16,7 +16,7 @@ PushBox - רישיון שימוש אישי בלבד
 
 ***
 
-PushBox - Personal Use Only License
+MyReportingBot - Personal Use Only License
 
 All rights reserved to Tzadikvtovlo.
 
