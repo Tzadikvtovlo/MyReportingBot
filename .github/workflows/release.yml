@@ -92,7 +92,10 @@ jobs:
             חילוץ הקבצים, והדבקתם בתיקית התוסף, תוך דריסה של הקיימים. ולאחמ"כ לחיצה על רענון בסמל התוסף בעמוד התוספים, או סגירה ופתיחה מחדש של הדפדפן.
 
             </div>
-          files: ${{ steps.version_logic.outputs.ZIP_NAME }}
+          files: |
+            ${{ steps.version_logic.outputs.ZIP_NAME }}
+            GoogleScript/*
+          fail_on_unmatched_files: false
           draft: false
           prerelease: false
           make_latest: true
